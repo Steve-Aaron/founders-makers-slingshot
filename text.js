@@ -9,7 +9,7 @@ class ItemText {
     
     show() {
         fill('white');
-        textFont(helvetica);
+        // textFont(helvetica);
         text(this.text, this.x, this.y, 500);
         this.visible = true;
     }
